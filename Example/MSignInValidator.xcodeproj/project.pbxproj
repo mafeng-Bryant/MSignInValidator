@@ -319,10 +319,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MSignInValidator_Example/Pods-MSignInValidator_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MLoadingViewKit/MLoadingViewKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MLocalizedStringKit/MLocalizedStringKit.framework",
 				"${BUILT_PRODUCTS_DIR}/MSignInValidator/MSignInValidator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLoadingViewKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLocalizedStringKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSignInValidator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

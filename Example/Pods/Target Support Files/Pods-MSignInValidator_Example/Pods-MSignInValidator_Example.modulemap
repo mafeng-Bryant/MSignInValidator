@@ -1,0 +1,6 @@
+framework module Pods_MSignInValidator_Example {
+  umbrella header "Pods-MSignInValidator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

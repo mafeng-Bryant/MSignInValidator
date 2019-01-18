@@ -1,0 +1,27 @@
+PODS:
+  - MLoadingViewKit (1.1.2)
+  - MLocalizedStringKit (1.0.0)
+  - MSignInValidator (1.0.0):
+    - MLoadingViewKit (~> 1.1.2)
+    - MLocalizedStringKit (~> 1.0.0)
+
+DEPENDENCIES:
+  - MSignInValidator (from `../`)
+
+SPEC REPOS:
+  https://github.com/mafeng-Bryant/Specs:
+    - MLoadingViewKit
+    - MLocalizedStringKit
+
+EXTERNAL SOURCES:
+  MSignInValidator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MLoadingViewKit: ca72879331491db6b4152239df2fddb234842225
+  MLocalizedStringKit: 6a7a076c228d94347ab9f37794e028e62591028c
+  MSignInValidator: f0dab666de7dfd1c26d784f886e25667626e04ff
+
+PODFILE CHECKSUM: 0f3a2bb7aeddbf8b4c00470071e83efc06248933
+
+COCOAPODS: 1.5.3

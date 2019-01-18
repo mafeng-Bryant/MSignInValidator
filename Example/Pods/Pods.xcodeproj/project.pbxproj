@@ -1,0 +1,1348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037C692B2752CE47DE51BC5E385063EB /* loading_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE285DFAE83E9E036F0534151A714F /* loading_gray@3x.png */; };
+		03CBEAE4C0A6C2C3E5638661D5A01815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A6BFE97CD4F167953377825D7052A8 /* Foundation.framework */; };
+		045A3C16712F4F3E7E480267C323EA7C /* loading_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE285DFAE83E9E036F0534151A714F /* loading_gray@3x.png */; };
+		06AAF8521C9DBCA1A1BD6B0844BF4C52 /* MSignInValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E068B01A7D662F2306336EE6B6341956 /* MSignInValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		088F42FCB35AA5EE6849A6505E80FBB8 /* PPHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = C23A146483A1054C400B53B2C4C2D4E5 /* PPHUDView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BB07F4FC3EDFC9F68AF99ACFFC8BDB5 /* PPLocalizedStringHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5267840E121C4526E1BBCCEA4AE0D959 /* PPLocalizedStringHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		160CF9F31EAE180A1EC3904F328AA20C /* loading_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C96BB15A4A94A0BB48FD6C9FF605ED /* loading_gray.png */; };
+		1CF5707FCCD2D797013F1189F2474FA9 /* PPLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = E14872FFCE813B0F4793CD1118F52343 /* PPLocalizedString.m */; };
+		2067D83BBB24D080EFBAE9C32C21E5E8 /* PPOrderLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ADFCFFBC0C8A542401402671EF1CB1 /* PPOrderLocalizedString.m */; };
+		24C0F57259AB2E7D20D376C793A17351 /* PPLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAE0173CCF0CB1881F75FEEB676C765 /* PPLocalizationManager.m */; };
+		25D665DC6799028907CAC7A8A85E76DD /* PPLoginLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 545C31A156CF9138E183D09BCB889DAB /* PPLoginLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2814B4F08373207962B2A49F70F8B929 /* PPShoppingLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C1FBC1C87ED5F55819EB14BA1A2706 /* PPShoppingLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28B2995D2DA9CE2EBC26F648E14C0C33 /* PPLocalizationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A86D201A1616FE22B8E61657AB7858F /* PPLocalizationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D2C095B5113E8E795AE36EA3470438E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A6BFE97CD4F167953377825D7052A8 /* Foundation.framework */; };
+		2E7D24213C2C02E6B8BBB4202D52F05B /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D2B884AAB5C44A1D3AAF50537C3BD2 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		301939017011962623AD054DB0195E02 /* PPMoreLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = C847D5BB8B0EBB61728B585AB9256FB7 /* PPMoreLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC3420113B1C5AFC384A3A61867E478 /* MLoadingViewKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0DF0F10D169F29C1CFB91286A8B70B0 /* MLoadingViewKit.bundle */; };
+		421EF09A6C18716A7C930E2AEB6D12CB /* loading_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C96BB15A4A94A0BB48FD6C9FF605ED /* loading_gray.png */; };
+		4239C4495B6A03A4ADE39862A7ED4A10 /* PPLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F50E9D526E00F7B9037B5204CF8323 /* PPLoadingView.xib */; };
+		4A39EC20AFBA791A9274A88569BAD17E /* PPModelLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0514CB24B17244DB3412295620FCBC /* PPModelLocalizedString.m */; };
+		4D83E5631B858B015A726FF93C4E2404 /* PPLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5A44C33A76FCA536998C947EC2FE45 /* PPLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513B1B3F09F7AFE2D2FBD46D5C20466F /* Pods-MSignInValidator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 478B93E23C91D4D120F4F774620B3E2C /* Pods-MSignInValidator_Example-dummy.m */; };
+		55AB638330EDDC1E3AF8607648F00F79 /* loading_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6D0CF8AF5FB531EB2F3AED337CE2EA /* loading_gray@2x.png */; };
+		55E018A1EF5CBF0D4C903430CD44EF61 /* PPLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CED344947F52DE43DA23B845F19F0A /* PPLoadingView.m */; };
+		59321559C21C907938D32AF0BFF011D3 /* PPLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F50E9D526E00F7B9037B5204CF8323 /* PPLoadingView.xib */; };
+		65DE6ED2248E40B677FAD68AAF425E16 /* Pods-MSignInValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D15002C614A9C06B4D8B42046963613 /* Pods-MSignInValidator_Tests-dummy.m */; };
+		693D41DA5D9B06344816775EFDB935C1 /* MLoadingViewKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9A89F717F4120102799015901F6458 /* MLoadingViewKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1E33B9AFCB4F0699D99F92E310512E /* MLoadingViewKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA2D30E8978504C1FE33363B81F82CD /* MLoadingViewKit-dummy.m */; };
+		83F52C147CB330B88921EB772D102811 /* PPViewLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0799962A1F2C22AE9FC8555AF99FE748 /* PPViewLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84797603F51A33A12F9A341CAAA4E866 /* PPLoginLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ACD0325C2D69B36DD1FA5A82F66571 /* PPLoginLocalizedString.m */; };
+		84B4CF606807388E0518454B4AAD5497 /* PPSignInValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C69D16834339B1D5D77F3CAFEF0CE2 /* PPSignInValidator.m */; };
+		8AB111BE801B97F7287484AC613C5459 /* Pods-MSignInValidator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6CA5E8D983CEDE5EC0C3D206CF6FE6 /* Pods-MSignInValidator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B11DA294AF24D92B3C9F3DE1078DFB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A6BFE97CD4F167953377825D7052A8 /* Foundation.framework */; };
+		8EFEE4CB6152DA66594A3F4F09AA5E65 /* PPSignInValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E873424C40814DC5C8FAFDD289E6FE /* PPSignInValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		918F223133B7458AE8AF81BFE600BF07 /* PPHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB995B10F6BF27DE604CBC1669648D8 /* PPHUDView.m */; };
+		9909AD5D0C4372FE1E1F1C6A7AF5619E /* PPMoreLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 35756851723E1EEB9958C3E1226B6AB4 /* PPMoreLocalizedString.m */; };
+		A26F135352EECD729859B7D972991EAD /* PPShoppingLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = B226F4C4FCDEC191FC55E4EC414CC0FF /* PPShoppingLocalizedString.m */; };
+		AD3ED9AB753B4C3C470EA54A958B5868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A6BFE97CD4F167953377825D7052A8 /* Foundation.framework */; };
+		B09194624266CF6CAAD83AAC38400596 /* Pods-MSignInValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACCF03B9EF7DF02B4F9E045B47EB133D /* Pods-MSignInValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1BD2CF525A5251AF73A9BDDB279D506 /* MLocalizedStringKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8310321F1C20B936423FD26DF49237 /* MLocalizedStringKit-dummy.m */; };
+		B3207AD8A420AD09BE35D3F8ABA9F5D1 /* PPViewLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8FD42438C54DA3CE5121E11575C0D /* PPViewLocalizedString.m */; };
+		B5CE9A0FACCEC945B13D05C07062CF3B /* PPModelLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D84DAF6C83DD62D28B3AB9E3BBBBD5 /* PPModelLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9CD5E2B7AD63A0F583E3DA21C055992 /* PPLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D390A087AE91C02E4662BA93E66E50 /* PPLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02FF3BE5526A5412175150291270C7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A6BFE97CD4F167953377825D7052A8 /* Foundation.framework */; };
+		C22A70E9E4AEB5A649049D86BDD06690 /* MLoadingViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EAB5C51AA37A96770344B5DC53AB66 /* MLoadingViewKit.framework */; };
+		C593348BE69B9D19A30D78ACAFCECAD6 /* loading_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6D0CF8AF5FB531EB2F3AED337CE2EA /* loading_gray@2x.png */; };
+		C826D6B2590094FCA6A5C0C2361C9CAD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0AEF57C482517D080806FD71ACDBB9 /* MBProgressHUD.m */; };
+		C8C4E1F9385E0EDF22FB9345DC63D524 /* MLocalizedStringKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92065E077BD282A80FB2E295DC6EA57A /* MLocalizedStringKit.framework */; };
+		CB7463F235F9022115C045A96CD14BFF /* MLocalizedStringKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2CC545D07FD8E84E594530845C525C /* MLocalizedStringKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D142BF2B7E94FA3F83A8F419ECE48A33 /* PPOrderLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6821D1BEB28F577F950830011428803D /* PPOrderLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEC079D369DD8727EBA71C2559248817 /* MSignInValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BDBBEDC8B84563552E686F5E159FB /* MSignInValidator-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12A511FFD5B6A921B4B2AB0977B6EA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43E0D3E3382D82BEC791231241C3878;
+			remoteInfo = "Pods-MSignInValidator_Example";
+		};
+		8ACC244C170F50FD9A807CA8CB09013D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECDC7D18352B235D0E1435A5DE06210;
+			remoteInfo = MLocalizedStringKit;
+		};
+		99544E0330C44BF10B9E4480F26C791D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992F032BE406C5B29DE3F3B7CDC09845;
+			remoteInfo = "MLoadingViewKit-MLoadingViewKit";
+		};
+		D5250C598238B45FF353EB947D5D125A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB19FB6350BBE9FB3C2914E3E51FBEF;
+			remoteInfo = MSignInValidator;
+		};
+		ED391E60975B7C599F0F95B29FB31DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F3980D65F496265BA5CD8C662DF78B9;
+			remoteInfo = MLoadingViewKit;
+		};
+		FA1EB38AFF42B5B49B1F0D663A0AACE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F3980D65F496265BA5CD8C662DF78B9;
+			remoteInfo = MLoadingViewKit;
+		};
+		FEE8E5CE72673828D9EF26F327D19C29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECDC7D18352B235D0E1435A5DE06210;
+			remoteInfo = MLocalizedStringKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C1FBC1C87ED5F55819EB14BA1A2706 /* PPShoppingLocalizedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPShoppingLocalizedString.h; path = MLocalizedStringKit/Classes/PPShoppingLocalizedString.h; sourceTree = "<group>"; };
+		047FD4FA2D6A916316D6E83C0C40A94C /* Pods-MSignInValidator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSignInValidator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0799962A1F2C22AE9FC8555AF99FE748 /* PPViewLocalizedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPViewLocalizedString.h; path = MLocalizedStringKit/Classes/PPViewLocalizedString.h; sourceTree = "<group>"; };
+		07DD88B2E0AD898390215790680FD190 /* Pods-MSignInValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSignInValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		09A6BFE97CD4F167953377825D7052A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0D15002C614A9C06B4D8B42046963613 /* Pods-MSignInValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSignInValidator_Tests-dummy.m"; sourceTree = "<group>"; };
+		13D2B884AAB5C44A1D3AAF50537C3BD2 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MLoadingViewKit/Classes/MBProgressHUD.h; sourceTree = "<group>"; };
+		1B2CC545D07FD8E84E594530845C525C /* MLocalizedStringKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLocalizedStringKit-umbrella.h"; sourceTree = "<group>"; };
+		25F50E9D526E00F7B9037B5204CF8323 /* PPLoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PPLoadingView.xib; path = MLoadingViewKit/Assets/PPLoadingView.xib; sourceTree = "<group>"; };
+		29ACD0325C2D69B36DD1FA5A82F66571 /* PPLoginLocalizedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPLoginLocalizedString.m; path = MLocalizedStringKit/Classes/PPLoginLocalizedString.m; sourceTree = "<group>"; };
+		2EB8FD42438C54DA3CE5121E11575C0D /* PPViewLocalizedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPViewLocalizedString.m; path = MLocalizedStringKit/Classes/PPViewLocalizedString.m; sourceTree = "<group>"; };
+		2F64EE092F5B292B748B8EB35FAB100F /* Pods-MSignInValidator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSignInValidator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31CED344947F52DE43DA23B845F19F0A /* PPLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPLoadingView.m; path = MLoadingViewKit/Classes/PPLoadingView.m; sourceTree = "<group>"; };
+		35756851723E1EEB9958C3E1226B6AB4 /* PPMoreLocalizedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPMoreLocalizedString.m; path = MLocalizedStringKit/Classes/PPMoreLocalizedString.m; sourceTree = "<group>"; };
+		3A86D201A1616FE22B8E61657AB7858F /* PPLocalizationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPLocalizationManager.h; path = MLocalizedStringKit/Classes/PPLocalizationManager.h; sourceTree = "<group>"; };
+		3AAF564FEA3F2E40B8E747ED67F093AE /* MLoadingViewKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLoadingViewKit-prefix.pch"; sourceTree = "<group>"; };
+		3ABE285DFAE83E9E036F0534151A714F /* loading_gray@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading_gray@3x.png"; path = "MLoadingViewKit/Assets/loading_gray@3x.png"; sourceTree = "<group>"; };
+		3CD8E00361068CF6C91E28D3BE7446C6 /* MSignInValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSignInValidator.xcconfig; sourceTree = "<group>"; };
+		431444A0AFDB335539CCF8212CEEE920 /* Pods_MSignInValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSignInValidator_Example.framework; path = "Pods-MSignInValidator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		478B93E23C91D4D120F4F774620B3E2C /* Pods-MSignInValidator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSignInValidator_Example-dummy.m"; sourceTree = "<group>"; };
+		5267840E121C4526E1BBCCEA4AE0D959 /* PPLocalizedStringHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPLocalizedStringHeader.h; path = MLocalizedStringKit/Classes/PPLocalizedStringHeader.h; sourceTree = "<group>"; };
+		53460A68BC4F3926BB94198FB224CF4F /* MLoadingViewKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MLoadingViewKit.framework; path = MLoadingViewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		545C31A156CF9138E183D09BCB889DAB /* PPLoginLocalizedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPLoginLocalizedString.h; path = MLocalizedStringKit/Classes/PPLoginLocalizedString.h; sourceTree = "<group>"; };
+		54C96BB15A4A94A0BB48FD6C9FF605ED /* loading_gray.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading_gray.png; path = MLoadingViewKit/Assets/loading_gray.png; sourceTree = "<group>"; };
+		566EC37DB3CC2F0DCC08BC28AB654A24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590860C602E6A6E78B95D765EF3BF1F6 /* MLocalizedStringKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MLocalizedStringKit.framework; path = MLocalizedStringKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6110F1C491AC43C8CC1EF50197791117 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		627CBB2F873152CB0ED788B33EA32B81 /* MLocalizedStringKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MLocalizedStringKit.modulemap; sourceTree = "<group>"; };
+		6821D1BEB28F577F950830011428803D /* PPOrderLocalizedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOrderLocalizedString.h; path = MLocalizedStringKit/Classes/PPOrderLocalizedString.h; sourceTree = "<group>"; };
+		6B0514CB24B17244DB3412295620FCBC /* PPModelLocalizedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPModelLocalizedString.m; path = MLocalizedStringKit/Classes/PPModelLocalizedString.m; sourceTree = "<group>"; };
+		6BE58064E43EF8D911C839658C54002E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A9A89F717F4120102799015901F6458 /* MLoadingViewKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLoadingViewKit-umbrella.h"; sourceTree = "<group>"; };
+		7B5A44C33A76FCA536998C947EC2FE45 /* PPLocalizedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPLocalizedString.h; path = MLocalizedStringKit/Classes/PPLocalizedString.h; sourceTree = "<group>"; };
+		7E3BDBBEDC8B84563552E686F5E159FB /* MSignInValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSignInValidator-dummy.m"; sourceTree = "<group>"; };
+		7E5DCEBE2A227DFD039EA4DDD054B74E /* Pods-MSignInValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSignInValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		81C5F15D08821B428CD2F1A66BA57598 /* Pods-MSignInValidator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSignInValidator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A62D4AF76B9A7E05A1FF0AFD50C6788 /* Pods_MSignInValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSignInValidator_Tests.framework; path = "Pods-MSignInValidator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1ED2E811D5AB97217E12C33187DD46 /* Pods-MSignInValidator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSignInValidator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		92065E077BD282A80FB2E295DC6EA57A /* MLocalizedStringKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLocalizedStringKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98E8EE1E49E1357F67671E5F98CF2310 /* Pods-MSignInValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSignInValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		98EAB5C51AA37A96770344B5DC53AB66 /* MLoadingViewKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLoadingViewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB995B10F6BF27DE604CBC1669648D8 /* PPHUDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPHUDView.m; path = MLoadingViewKit/Classes/PPHUDView.m; sourceTree = "<group>"; };
+		9D8B60AA6D4B4D70844405F0625866D4 /* MSignInValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSignInValidator-prefix.pch"; sourceTree = "<group>"; };
+		A50D3FDC7B4301D0465257FB7C0557F5 /* Pods-MSignInValidator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSignInValidator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7488E1576BEB38007D41A7E788C0E14 /* MSignInValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSignInValidator.framework; path = MSignInValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC657F7464AB5E724812481CF58792C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCF03B9EF7DF02B4F9E045B47EB133D /* Pods-MSignInValidator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSignInValidator_Example-umbrella.h"; sourceTree = "<group>"; };
+		AD0AEF57C482517D080806FD71ACDBB9 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MLoadingViewKit/Classes/MBProgressHUD.m; sourceTree = "<group>"; };
+		AF8310321F1C20B936423FD26DF49237 /* MLocalizedStringKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLocalizedStringKit-dummy.m"; sourceTree = "<group>"; };
+		B226F4C4FCDEC191FC55E4EC414CC0FF /* PPShoppingLocalizedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPShoppingLocalizedString.m; path = MLocalizedStringKit/Classes/PPShoppingLocalizedString.m; sourceTree = "<group>"; };
+		B4E873424C40814DC5C8FAFDD289E6FE /* PPSignInValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPSignInValidator.h; path = MSignInValidator/Classes/PPSignInValidator.h; sourceTree = "<group>"; };
+		BC6CA5E8D983CEDE5EC0C3D206CF6FE6 /* Pods-MSignInValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSignInValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BCA2D30E8978504C1FE33363B81F82CD /* MLoadingViewKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLoadingViewKit-dummy.m"; sourceTree = "<group>"; };
+		C0DF0F10D169F29C1CFB91286A8B70B0 /* MLoadingViewKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MLoadingViewKit.bundle; path = "MLoadingViewKit-MLoadingViewKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E04C7F03EACB38B196FB1C27EED41A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C189B9FDC10F591D56610087EC76B652 /* MSignInValidator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MSignInValidator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C23A146483A1054C400B53B2C4C2D4E5 /* PPHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPHUDView.h; path = MLoadingViewKit/Classes/PPHUDView.h; sourceTree = "<group>"; };
+		C28F27DCAD5BC1DB761E18A0875BD565 /* MLocalizedStringKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLocalizedStringKit-prefix.pch"; sourceTree = "<group>"; };
+		C2D390A087AE91C02E4662BA93E66E50 /* PPLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPLoadingView.h; path = MLoadingViewKit/Classes/PPLoadingView.h; sourceTree = "<group>"; };
+		C847D5BB8B0EBB61728B585AB9256FB7 /* PPMoreLocalizedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPMoreLocalizedString.h; path = MLocalizedStringKit/Classes/PPMoreLocalizedString.h; sourceTree = "<group>"; };
+		CD6D0CF8AF5FB531EB2F3AED337CE2EA /* loading_gray@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading_gray@2x.png"; path = "MLoadingViewKit/Assets/loading_gray@2x.png"; sourceTree = "<group>"; };
+		D15228BE17766B20EB9B694DD6D877E1 /* MLocalizedStringKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLocalizedStringKit.xcconfig; sourceTree = "<group>"; };
+		D39FFEEEC1C38732AAB55AFF0DCD1BF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CDF39C8CA3770CAE0C84DD73A78CCC /* Pods-MSignInValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSignInValidator_Example.modulemap"; sourceTree = "<group>"; };
+		D4B0BA390D6A224E070005EA1F75EEC2 /* MSignInValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSignInValidator.modulemap; sourceTree = "<group>"; };
+		D64A5958527638918478C4BD2AE710AE /* MLoadingViewKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLoadingViewKit.xcconfig; sourceTree = "<group>"; };
+		D8ADFCFFBC0C8A542401402671EF1CB1 /* PPOrderLocalizedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPOrderLocalizedString.m; path = MLocalizedStringKit/Classes/PPOrderLocalizedString.m; sourceTree = "<group>"; };
+		DA2E4C4AF6E537BD89DCA27F821344EC /* Pods-MSignInValidator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSignInValidator_Tests-resources.sh"; sourceTree = "<group>"; };
+		DCE4294DB024433FBBCA4B33BF99E00C /* Pods-MSignInValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSignInValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E068B01A7D662F2306336EE6B6341956 /* MSignInValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSignInValidator-umbrella.h"; sourceTree = "<group>"; };
+		E0D84DAF6C83DD62D28B3AB9E3BBBBD5 /* PPModelLocalizedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPModelLocalizedString.h; path = MLocalizedStringKit/Classes/PPModelLocalizedString.h; sourceTree = "<group>"; };
+		E14872FFCE813B0F4793CD1118F52343 /* PPLocalizedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPLocalizedString.m; path = MLocalizedStringKit/Classes/PPLocalizedString.m; sourceTree = "<group>"; };
+		E8163242B3C9107E05D1032290C68E82 /* ResourceBundle-MLoadingViewKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MLoadingViewKit-Info.plist"; sourceTree = "<group>"; };
+		EC8C774B94C0448A2FEF6468A73E961B /* Pods-MSignInValidator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSignInValidator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EED35AE92A8A3189015CC717B1A5085F /* Pods-MSignInValidator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSignInValidator_Example-resources.sh"; sourceTree = "<group>"; };
+		F5C69D16834339B1D5D77F3CAFEF0CE2 /* PPSignInValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPSignInValidator.m; path = MSignInValidator/Classes/PPSignInValidator.m; sourceTree = "<group>"; };
+		F9BA0FC95737D5F52F0E86FB625DB302 /* Pods-MSignInValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSignInValidator_Tests.modulemap"; sourceTree = "<group>"; };
+		FA34C9AC3C877192001FA068CB69AE77 /* MLoadingViewKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MLoadingViewKit.modulemap; sourceTree = "<group>"; };
+		FC38AED5EEFCDFC2C7F6081B47830AD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAE0173CCF0CB1881F75FEEB676C765 /* PPLocalizationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPLocalizationManager.m; path = MLocalizedStringKit/Classes/PPLocalizationManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462FA07AC08C258BFB3D76913559B707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B11DA294AF24D92B3C9F3DE1078DFB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B2C55075406469769C3DBF8E27546D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757F99442D0B2802EAD6BC3A52E55FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CBEAE4C0A6C2C3E5638661D5A01815 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F35DB172BE683E94CA38616CAB6883A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02FF3BE5526A5412175150291270C7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45B88D4F3470F12E1A62F7B765DF6F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2C095B5113E8E795AE36EA3470438E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7898447C9232C225FAB2DA8D8E61B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3ED9AB753B4C3C470EA54A958B5868 /* Foundation.framework in Frameworks */,
+				C22A70E9E4AEB5A649049D86BDD06690 /* MLoadingViewKit.framework in Frameworks */,
+				C8C4E1F9385E0EDF22FB9345DC63D524 /* MLocalizedStringKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C3B85E22188EDA744A20B513740FE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BE58064E43EF8D911C839658C54002E /* Info.plist */,
+				D4B0BA390D6A224E070005EA1F75EEC2 /* MSignInValidator.modulemap */,
+				3CD8E00361068CF6C91E28D3BE7446C6 /* MSignInValidator.xcconfig */,
+				7E3BDBBEDC8B84563552E686F5E159FB /* MSignInValidator-dummy.m */,
+				9D8B60AA6D4B4D70844405F0625866D4 /* MSignInValidator-prefix.pch */,
+				E068B01A7D662F2306336EE6B6341956 /* MSignInValidator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSignInValidator";
+			sourceTree = "<group>";
+		};
+		1FE626B46520594F25F23EF628066C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0DF0F10D169F29C1CFB91286A8B70B0 /* MLoadingViewKit.bundle */,
+				53460A68BC4F3926BB94198FB224CF4F /* MLoadingViewKit.framework */,
+				590860C602E6A6E78B95D765EF3BF1F6 /* MLocalizedStringKit.framework */,
+				A7488E1576BEB38007D41A7E788C0E14 /* MSignInValidator.framework */,
+				431444A0AFDB335539CCF8212CEEE920 /* Pods_MSignInValidator_Example.framework */,
+				8A62D4AF76B9A7E05A1FF0AFD50C6788 /* Pods_MSignInValidator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A74CBFEE54E6D05114D079FB33F1EB /* MSignInValidator */ = {
+			isa = PBXGroup;
+			children = (
+				B4E873424C40814DC5C8FAFDD289E6FE /* PPSignInValidator.h */,
+				F5C69D16834339B1D5D77F3CAFEF0CE2 /* PPSignInValidator.m */,
+				5CF225D5BC34C8B59FAB71C3D63EC604 /* Pod */,
+				01C3B85E22188EDA744A20B513740FE9 /* Support Files */,
+			);
+			name = MSignInValidator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2B77B6D11D3C69ECEBF2C4F000A7406F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				566EC37DB3CC2F0DCC08BC28AB654A24 /* Info.plist */,
+				627CBB2F873152CB0ED788B33EA32B81 /* MLocalizedStringKit.modulemap */,
+				D15228BE17766B20EB9B694DD6D877E1 /* MLocalizedStringKit.xcconfig */,
+				AF8310321F1C20B936423FD26DF49237 /* MLocalizedStringKit-dummy.m */,
+				C28F27DCAD5BC1DB761E18A0875BD565 /* MLocalizedStringKit-prefix.pch */,
+				1B2CC545D07FD8E84E594530845C525C /* MLocalizedStringKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MLocalizedStringKit";
+			sourceTree = "<group>";
+		};
+		2EC6B35F460CC0A29ED6CF84702851AC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				667EDF2E90A2FDA7AF0E6C51BF6F9A7A /* Pods-MSignInValidator_Example */,
+				C5D26D18591F7DFC85D1AFF7BAB4338B /* Pods-MSignInValidator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F20387C093C9F59FA45FA8B6BC6C399 /* MLocalizedStringKit */ = {
+			isa = PBXGroup;
+			children = (
+				3A86D201A1616FE22B8E61657AB7858F /* PPLocalizationManager.h */,
+				FEAE0173CCF0CB1881F75FEEB676C765 /* PPLocalizationManager.m */,
+				7B5A44C33A76FCA536998C947EC2FE45 /* PPLocalizedString.h */,
+				E14872FFCE813B0F4793CD1118F52343 /* PPLocalizedString.m */,
+				5267840E121C4526E1BBCCEA4AE0D959 /* PPLocalizedStringHeader.h */,
+				545C31A156CF9138E183D09BCB889DAB /* PPLoginLocalizedString.h */,
+				29ACD0325C2D69B36DD1FA5A82F66571 /* PPLoginLocalizedString.m */,
+				E0D84DAF6C83DD62D28B3AB9E3BBBBD5 /* PPModelLocalizedString.h */,
+				6B0514CB24B17244DB3412295620FCBC /* PPModelLocalizedString.m */,
+				C847D5BB8B0EBB61728B585AB9256FB7 /* PPMoreLocalizedString.h */,
+				35756851723E1EEB9958C3E1226B6AB4 /* PPMoreLocalizedString.m */,
+				6821D1BEB28F577F950830011428803D /* PPOrderLocalizedString.h */,
+				D8ADFCFFBC0C8A542401402671EF1CB1 /* PPOrderLocalizedString.m */,
+				01C1FBC1C87ED5F55819EB14BA1A2706 /* PPShoppingLocalizedString.h */,
+				B226F4C4FCDEC191FC55E4EC414CC0FF /* PPShoppingLocalizedString.m */,
+				0799962A1F2C22AE9FC8555AF99FE748 /* PPViewLocalizedString.h */,
+				2EB8FD42438C54DA3CE5121E11575C0D /* PPViewLocalizedString.m */,
+				2B77B6D11D3C69ECEBF2C4F000A7406F /* Support Files */,
+			);
+			name = MLocalizedStringKit;
+			path = MLocalizedStringKit;
+			sourceTree = "<group>";
+		};
+		3583DB8FD29032DCC5976665C7346E6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54C96BB15A4A94A0BB48FD6C9FF605ED /* loading_gray.png */,
+				CD6D0CF8AF5FB531EB2F3AED337CE2EA /* loading_gray@2x.png */,
+				3ABE285DFAE83E9E036F0534151A714F /* loading_gray@3x.png */,
+				25F50E9D526E00F7B9037B5204CF8323 /* PPLoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		40E926CBD855A867C08D5BA04BA43BC1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				09A6BFE97CD4F167953377825D7052A8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4BA09F400F9650D29CB096B8BFC71378 /* MLoadingViewKit */ = {
+			isa = PBXGroup;
+			children = (
+				13D2B884AAB5C44A1D3AAF50537C3BD2 /* MBProgressHUD.h */,
+				AD0AEF57C482517D080806FD71ACDBB9 /* MBProgressHUD.m */,
+				C23A146483A1054C400B53B2C4C2D4E5 /* PPHUDView.h */,
+				9AB995B10F6BF27DE604CBC1669648D8 /* PPHUDView.m */,
+				C2D390A087AE91C02E4662BA93E66E50 /* PPLoadingView.h */,
+				31CED344947F52DE43DA23B845F19F0A /* PPLoadingView.m */,
+				3583DB8FD29032DCC5976665C7346E6A /* Resources */,
+				CA5B8E3F171ED5C364839C5C50FE1ECC /* Support Files */,
+			);
+			name = MLoadingViewKit;
+			path = MLoadingViewKit;
+			sourceTree = "<group>";
+		};
+		574A9392D337E526C30B7680BE7FAF3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BA09F400F9650D29CB096B8BFC71378 /* MLoadingViewKit */,
+				2F20387C093C9F59FA45FA8B6BC6C399 /* MLocalizedStringKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5CF225D5BC34C8B59FAB71C3D63EC604 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C0E04C7F03EACB38B196FB1C27EED41A /* LICENSE */,
+				C189B9FDC10F591D56610087EC76B652 /* MSignInValidator.podspec */,
+				6110F1C491AC43C8CC1EF50197791117 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		667EDF2E90A2FDA7AF0E6C51BF6F9A7A /* Pods-MSignInValidator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FC38AED5EEFCDFC2C7F6081B47830AD1 /* Info.plist */,
+				D3CDF39C8CA3770CAE0C84DD73A78CCC /* Pods-MSignInValidator_Example.modulemap */,
+				EC8C774B94C0448A2FEF6468A73E961B /* Pods-MSignInValidator_Example-acknowledgements.markdown */,
+				A50D3FDC7B4301D0465257FB7C0557F5 /* Pods-MSignInValidator_Example-acknowledgements.plist */,
+				478B93E23C91D4D120F4F774620B3E2C /* Pods-MSignInValidator_Example-dummy.m */,
+				047FD4FA2D6A916316D6E83C0C40A94C /* Pods-MSignInValidator_Example-frameworks.sh */,
+				EED35AE92A8A3189015CC717B1A5085F /* Pods-MSignInValidator_Example-resources.sh */,
+				ACCF03B9EF7DF02B4F9E045B47EB133D /* Pods-MSignInValidator_Example-umbrella.h */,
+				98E8EE1E49E1357F67671E5F98CF2310 /* Pods-MSignInValidator_Example.debug.xcconfig */,
+				07DD88B2E0AD898390215790680FD190 /* Pods-MSignInValidator_Example.release.xcconfig */,
+			);
+			name = "Pods-MSignInValidator_Example";
+			path = "Target Support Files/Pods-MSignInValidator_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DA39DE17A3CBCBD215E279F741D8CFFC /* Development Pods */,
+				80ABDCF829616E290776C6FEF6F149BB /* Frameworks */,
+				574A9392D337E526C30B7680BE7FAF3E /* Pods */,
+				1FE626B46520594F25F23EF628066C1E /* Products */,
+				2EC6B35F460CC0A29ED6CF84702851AC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80ABDCF829616E290776C6FEF6F149BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98EAB5C51AA37A96770344B5DC53AB66 /* MLoadingViewKit.framework */,
+				92065E077BD282A80FB2E295DC6EA57A /* MLocalizedStringKit.framework */,
+				40E926CBD855A867C08D5BA04BA43BC1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5D26D18591F7DFC85D1AFF7BAB4338B /* Pods-MSignInValidator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC657F7464AB5E724812481CF58792C8 /* Info.plist */,
+				F9BA0FC95737D5F52F0E86FB625DB302 /* Pods-MSignInValidator_Tests.modulemap */,
+				2F64EE092F5B292B748B8EB35FAB100F /* Pods-MSignInValidator_Tests-acknowledgements.markdown */,
+				81C5F15D08821B428CD2F1A66BA57598 /* Pods-MSignInValidator_Tests-acknowledgements.plist */,
+				0D15002C614A9C06B4D8B42046963613 /* Pods-MSignInValidator_Tests-dummy.m */,
+				8B1ED2E811D5AB97217E12C33187DD46 /* Pods-MSignInValidator_Tests-frameworks.sh */,
+				DA2E4C4AF6E537BD89DCA27F821344EC /* Pods-MSignInValidator_Tests-resources.sh */,
+				BC6CA5E8D983CEDE5EC0C3D206CF6FE6 /* Pods-MSignInValidator_Tests-umbrella.h */,
+				DCE4294DB024433FBBCA4B33BF99E00C /* Pods-MSignInValidator_Tests.debug.xcconfig */,
+				7E5DCEBE2A227DFD039EA4DDD054B74E /* Pods-MSignInValidator_Tests.release.xcconfig */,
+			);
+			name = "Pods-MSignInValidator_Tests";
+			path = "Target Support Files/Pods-MSignInValidator_Tests";
+			sourceTree = "<group>";
+		};
+		CA5B8E3F171ED5C364839C5C50FE1ECC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D39FFEEEC1C38732AAB55AFF0DCD1BF4 /* Info.plist */,
+				FA34C9AC3C877192001FA068CB69AE77 /* MLoadingViewKit.modulemap */,
+				D64A5958527638918478C4BD2AE710AE /* MLoadingViewKit.xcconfig */,
+				BCA2D30E8978504C1FE33363B81F82CD /* MLoadingViewKit-dummy.m */,
+				3AAF564FEA3F2E40B8E747ED67F093AE /* MLoadingViewKit-prefix.pch */,
+				7A9A89F717F4120102799015901F6458 /* MLoadingViewKit-umbrella.h */,
+				E8163242B3C9107E05D1032290C68E82 /* ResourceBundle-MLoadingViewKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MLoadingViewKit";
+			sourceTree = "<group>";
+		};
+		DA39DE17A3CBCBD215E279F741D8CFFC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26A74CBFEE54E6D05114D079FB33F1EB /* MSignInValidator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33AC8CABDD6E6D3405FE49970B5A26DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AAF8521C9DBCA1A1BD6B0844BF4C52 /* MSignInValidator-umbrella.h in Headers */,
+				8EFEE4CB6152DA66594A3F4F09AA5E65 /* PPSignInValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A84BC4EB70E53B44E926447D2638D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09194624266CF6CAAD83AAC38400596 /* Pods-MSignInValidator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608862F2651A3CB13E5CDDF367FBDD9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7D24213C2C02E6B8BBB4202D52F05B /* MBProgressHUD.h in Headers */,
+				693D41DA5D9B06344816775EFDB935C1 /* MLoadingViewKit-umbrella.h in Headers */,
+				088F42FCB35AA5EE6849A6505E80FBB8 /* PPHUDView.h in Headers */,
+				B9CD5E2B7AD63A0F583E3DA21C055992 /* PPLoadingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864117DC7768786D576DC6D9FD8FE7C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7463F235F9022115C045A96CD14BFF /* MLocalizedStringKit-umbrella.h in Headers */,
+				28B2995D2DA9CE2EBC26F648E14C0C33 /* PPLocalizationManager.h in Headers */,
+				4D83E5631B858B015A726FF93C4E2404 /* PPLocalizedString.h in Headers */,
+				0BB07F4FC3EDFC9F68AF99ACFFC8BDB5 /* PPLocalizedStringHeader.h in Headers */,
+				25D665DC6799028907CAC7A8A85E76DD /* PPLoginLocalizedString.h in Headers */,
+				B5CE9A0FACCEC945B13D05C07062CF3B /* PPModelLocalizedString.h in Headers */,
+				301939017011962623AD054DB0195E02 /* PPMoreLocalizedString.h in Headers */,
+				D142BF2B7E94FA3F83A8F419ECE48A33 /* PPOrderLocalizedString.h in Headers */,
+				2814B4F08373207962B2A49F70F8B929 /* PPShoppingLocalizedString.h in Headers */,
+				83F52C147CB330B88921EB772D102811 /* PPViewLocalizedString.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4FD5D7D216764AFC37CABF44546EBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB111BE801B97F7287484AC613C5459 /* Pods-MSignInValidator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42935F47D090E44FCE87B0D2D22667FD /* Pods-MSignInValidator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA4C0E79E6B0F25021081B8907CE78E /* Build configuration list for PBXNativeTarget "Pods-MSignInValidator_Tests" */;
+			buildPhases = (
+				9A91E34578A0C74AE9C8C962647E7D56 /* Sources */,
+				9F35DB172BE683E94CA38616CAB6883A /* Frameworks */,
+				AF4FD5D7D216764AFC37CABF44546EBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B77A10D1CB8DEE37BAFF0A5AE1831A34 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSignInValidator_Tests";
+			productName = "Pods-MSignInValidator_Tests";
+			productReference = 8A62D4AF76B9A7E05A1FF0AFD50C6788 /* Pods_MSignInValidator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DB19FB6350BBE9FB3C2914E3E51FBEF /* MSignInValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED937D6316AAFA95F7696727E8AC2A70 /* Build configuration list for PBXNativeTarget "MSignInValidator" */;
+			buildPhases = (
+				EF2BD347100E8C73EB2472584F947F97 /* Sources */,
+				C7898447C9232C225FAB2DA8D8E61B8B /* Frameworks */,
+				33AC8CABDD6E6D3405FE49970B5A26DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97141DCC8CFC3ED74034177C7BC9AD11 /* PBXTargetDependency */,
+				E9E16DDC23C03C38A0EF50A94FD38F6C /* PBXTargetDependency */,
+			);
+			name = MSignInValidator;
+			productName = MSignInValidator;
+			productReference = A7488E1576BEB38007D41A7E788C0E14 /* MSignInValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5ECDC7D18352B235D0E1435A5DE06210 /* MLocalizedStringKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C439E21E97C7733F81C41E9CFDEF2581 /* Build configuration list for PBXNativeTarget "MLocalizedStringKit" */;
+			buildPhases = (
+				6E95DA9C7456E78B8DD7162DFBFF8168 /* Sources */,
+				B45B88D4F3470F12E1A62F7B765DF6F2 /* Frameworks */,
+				864117DC7768786D576DC6D9FD8FE7C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLocalizedStringKit;
+			productName = MLocalizedStringKit;
+			productReference = 590860C602E6A6E78B95D765EF3BF1F6 /* MLocalizedStringKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		992F032BE406C5B29DE3F3B7CDC09845 /* MLoadingViewKit-MLoadingViewKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62BC9A5ADBBD481242DC658A27CA0BE9 /* Build configuration list for PBXNativeTarget "MLoadingViewKit-MLoadingViewKit" */;
+			buildPhases = (
+				0CADBE8652A627F5F9994EA30D421891 /* Sources */,
+				70B2C55075406469769C3DBF8E27546D /* Frameworks */,
+				5777D4C1B76CF74B8A1DC1F63BBBCE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MLoadingViewKit-MLoadingViewKit";
+			productName = "MLoadingViewKit-MLoadingViewKit";
+			productReference = C0DF0F10D169F29C1CFB91286A8B70B0 /* MLoadingViewKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9F3980D65F496265BA5CD8C662DF78B9 /* MLoadingViewKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED8C6A50D2456E5653F6C836573FD3A /* Build configuration list for PBXNativeTarget "MLoadingViewKit" */;
+			buildPhases = (
+				241366E0C584C931D6606D88A3702583 /* Sources */,
+				462FA07AC08C258BFB3D76913559B707 /* Frameworks */,
+				9C6D4D8D2780D2D40F31136DE9283B36 /* Resources */,
+				608862F2651A3CB13E5CDDF367FBDD9A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51F3FF0669DCD6FC42A331CBE0E1EB7A /* PBXTargetDependency */,
+			);
+			name = MLoadingViewKit;
+			productName = MLoadingViewKit;
+			productReference = 53460A68BC4F3926BB94198FB224CF4F /* MLoadingViewKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B43E0D3E3382D82BEC791231241C3878 /* Pods-MSignInValidator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F45064BEC3B95A6FA4D4ADB75D2619 /* Build configuration list for PBXNativeTarget "Pods-MSignInValidator_Example" */;
+			buildPhases = (
+				1D250A3C018EF252473371432DECA58D /* Sources */,
+				757F99442D0B2802EAD6BC3A52E55FBF /* Frameworks */,
+				54A84BC4EB70E53B44E926447D2638D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95A373D13E8F5B7A6A6C7F0F219737B /* PBXTargetDependency */,
+				2FDD3D31BF1538022D9CF4D19482A274 /* PBXTargetDependency */,
+				1D2F1EE443C28028AB24F04A99EF13EA /* PBXTargetDependency */,
+			);
+			name = "Pods-MSignInValidator_Example";
+			productName = "Pods-MSignInValidator_Example";
+			productReference = 431444A0AFDB335539CCF8212CEEE920 /* Pods_MSignInValidator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1FE626B46520594F25F23EF628066C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F3980D65F496265BA5CD8C662DF78B9 /* MLoadingViewKit */,
+				992F032BE406C5B29DE3F3B7CDC09845 /* MLoadingViewKit-MLoadingViewKit */,
+				5ECDC7D18352B235D0E1435A5DE06210 /* MLocalizedStringKit */,
+				4DB19FB6350BBE9FB3C2914E3E51FBEF /* MSignInValidator */,
+				B43E0D3E3382D82BEC791231241C3878 /* Pods-MSignInValidator_Example */,
+				42935F47D090E44FCE87B0D2D22667FD /* Pods-MSignInValidator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5777D4C1B76CF74B8A1DC1F63BBBCE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421EF09A6C18716A7C930E2AEB6D12CB /* loading_gray.png in Resources */,
+				C593348BE69B9D19A30D78ACAFCECAD6 /* loading_gray@2x.png in Resources */,
+				045A3C16712F4F3E7E480267C323EA7C /* loading_gray@3x.png in Resources */,
+				59321559C21C907938D32AF0BFF011D3 /* PPLoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6D4D8D2780D2D40F31136DE9283B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160CF9F31EAE180A1EC3904F328AA20C /* loading_gray.png in Resources */,
+				55AB638330EDDC1E3AF8607648F00F79 /* loading_gray@2x.png in Resources */,
+				037C692B2752CE47DE51BC5E385063EB /* loading_gray@3x.png in Resources */,
+				3FC3420113B1C5AFC384A3A61867E478 /* MLoadingViewKit.bundle in Resources */,
+				4239C4495B6A03A4ADE39862A7ED4A10 /* PPLoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CADBE8652A627F5F9994EA30D421891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D250A3C018EF252473371432DECA58D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513B1B3F09F7AFE2D2FBD46D5C20466F /* Pods-MSignInValidator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241366E0C584C931D6606D88A3702583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C826D6B2590094FCA6A5C0C2361C9CAD /* MBProgressHUD.m in Sources */,
+				6A1E33B9AFCB4F0699D99F92E310512E /* MLoadingViewKit-dummy.m in Sources */,
+				918F223133B7458AE8AF81BFE600BF07 /* PPHUDView.m in Sources */,
+				55E018A1EF5CBF0D4C903430CD44EF61 /* PPLoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E95DA9C7456E78B8DD7162DFBFF8168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BD2CF525A5251AF73A9BDDB279D506 /* MLocalizedStringKit-dummy.m in Sources */,
+				24C0F57259AB2E7D20D376C793A17351 /* PPLocalizationManager.m in Sources */,
+				1CF5707FCCD2D797013F1189F2474FA9 /* PPLocalizedString.m in Sources */,
+				84797603F51A33A12F9A341CAAA4E866 /* PPLoginLocalizedString.m in Sources */,
+				4A39EC20AFBA791A9274A88569BAD17E /* PPModelLocalizedString.m in Sources */,
+				9909AD5D0C4372FE1E1F1C6A7AF5619E /* PPMoreLocalizedString.m in Sources */,
+				2067D83BBB24D080EFBAE9C32C21E5E8 /* PPOrderLocalizedString.m in Sources */,
+				A26F135352EECD729859B7D972991EAD /* PPShoppingLocalizedString.m in Sources */,
+				B3207AD8A420AD09BE35D3F8ABA9F5D1 /* PPViewLocalizedString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A91E34578A0C74AE9C8C962647E7D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE6ED2248E40B677FAD68AAF425E16 /* Pods-MSignInValidator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2BD347100E8C73EB2472584F947F97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC079D369DD8727EBA71C2559248817 /* MSignInValidator-dummy.m in Sources */,
+				84B4CF606807388E0518454B4AAD5497 /* PPSignInValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D2F1EE443C28028AB24F04A99EF13EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSignInValidator;
+			target = 4DB19FB6350BBE9FB3C2914E3E51FBEF /* MSignInValidator */;
+			targetProxy = D5250C598238B45FF353EB947D5D125A /* PBXContainerItemProxy */;
+		};
+		2FDD3D31BF1538022D9CF4D19482A274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLocalizedStringKit;
+			target = 5ECDC7D18352B235D0E1435A5DE06210 /* MLocalizedStringKit */;
+			targetProxy = 8ACC244C170F50FD9A807CA8CB09013D /* PBXContainerItemProxy */;
+		};
+		51F3FF0669DCD6FC42A331CBE0E1EB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MLoadingViewKit-MLoadingViewKit";
+			target = 992F032BE406C5B29DE3F3B7CDC09845 /* MLoadingViewKit-MLoadingViewKit */;
+			targetProxy = 99544E0330C44BF10B9E4480F26C791D /* PBXContainerItemProxy */;
+		};
+		97141DCC8CFC3ED74034177C7BC9AD11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLoadingViewKit;
+			target = 9F3980D65F496265BA5CD8C662DF78B9 /* MLoadingViewKit */;
+			targetProxy = ED391E60975B7C599F0F95B29FB31DD9 /* PBXContainerItemProxy */;
+		};
+		B77A10D1CB8DEE37BAFF0A5AE1831A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSignInValidator_Example";
+			target = B43E0D3E3382D82BEC791231241C3878 /* Pods-MSignInValidator_Example */;
+			targetProxy = 12A511FFD5B6A921B4B2AB0977B6EA60 /* PBXContainerItemProxy */;
+		};
+		D95A373D13E8F5B7A6A6C7F0F219737B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLoadingViewKit;
+			target = 9F3980D65F496265BA5CD8C662DF78B9 /* MLoadingViewKit */;
+			targetProxy = FA1EB38AFF42B5B49B1F0D663A0AACE0 /* PBXContainerItemProxy */;
+		};
+		E9E16DDC23C03C38A0EF50A94FD38F6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MLocalizedStringKit;
+			target = 5ECDC7D18352B235D0E1435A5DE06210 /* MLocalizedStringKit */;
+			targetProxy = FEE8E5CE72673828D9EF26F327D19C29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		086B99D74AD58D4BA4A692E3965A8106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E8EE1E49E1357F67671E5F98CF2310 /* Pods-MSignInValidator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSignInValidator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSignInValidator_Example/Pods-MSignInValidator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C0CD217C3A727448EB57BA59CA152FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD8E00361068CF6C91E28D3BE7446C6 /* MSignInValidator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSignInValidator/MSignInValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSignInValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSignInValidator/MSignInValidator.modulemap";
+				PRODUCT_MODULE_NAME = MSignInValidator;
+				PRODUCT_NAME = MSignInValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4807FCC239C040DB2D2AED22D83E374C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15228BE17766B20EB9B694DD6D877E1 /* MLocalizedStringKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLocalizedStringKit/MLocalizedStringKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLocalizedStringKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MLocalizedStringKit/MLocalizedStringKit.modulemap";
+				PRODUCT_MODULE_NAME = MLocalizedStringKit;
+				PRODUCT_NAME = MLocalizedStringKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6329933EF5831C1966BFCE4407FADFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E5DCEBE2A227DFD039EA4DDD054B74E /* Pods-MSignInValidator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSignInValidator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSignInValidator_Tests/Pods-MSignInValidator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D8ECB8742EA96AC10E253E6F3D51BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD8E00361068CF6C91E28D3BE7446C6 /* MSignInValidator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSignInValidator/MSignInValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSignInValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSignInValidator/MSignInValidator.modulemap";
+				PRODUCT_MODULE_NAME = MSignInValidator;
+				PRODUCT_NAME = MSignInValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85489CF4F91DFCB8B71670BCE437C9A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE4294DB024433FBBCA4B33BF99E00C /* Pods-MSignInValidator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSignInValidator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSignInValidator_Tests/Pods-MSignInValidator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C7DA589987DB2EF736726BF2AA72B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64A5958527638918478C4BD2AE710AE /* MLoadingViewKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLoadingViewKit/MLoadingViewKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLoadingViewKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MLoadingViewKit/MLoadingViewKit.modulemap";
+				PRODUCT_MODULE_NAME = MLoadingViewKit;
+				PRODUCT_NAME = MLoadingViewKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1C6D7B60E0B5B4B471BF1BB89F9B8EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64A5958527638918478C4BD2AE710AE /* MLoadingViewKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLoadingViewKit/MLoadingViewKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLoadingViewKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MLoadingViewKit/MLoadingViewKit.modulemap";
+				PRODUCT_MODULE_NAME = MLoadingViewKit;
+				PRODUCT_NAME = MLoadingViewKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2433CCFCA3E9B44254D69F6CAA45472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15228BE17766B20EB9B694DD6D877E1 /* MLocalizedStringKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLocalizedStringKit/MLocalizedStringKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLocalizedStringKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MLocalizedStringKit/MLocalizedStringKit.modulemap";
+				PRODUCT_MODULE_NAME = MLocalizedStringKit;
+				PRODUCT_NAME = MLocalizedStringKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5B8335E0FBA988E5FD29DD0EBB733DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07DD88B2E0AD898390215790680FD190 /* Pods-MSignInValidator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSignInValidator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSignInValidator_Example/Pods-MSignInValidator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE566A62CD1A9F7B3D4236B42B6EB244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64A5958527638918478C4BD2AE710AE /* MLoadingViewKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MLoadingViewKit";
+				INFOPLIST_FILE = "Target Support Files/MLoadingViewKit/ResourceBundle-MLoadingViewKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MLoadingViewKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F819F9EDF3553EBB6720B4E783B91F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64A5958527638918478C4BD2AE710AE /* MLoadingViewKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MLoadingViewKit";
+				INFOPLIST_FILE = "Target Support Files/MLoadingViewKit/ResourceBundle-MLoadingViewKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MLoadingViewKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F45064BEC3B95A6FA4D4ADB75D2619 /* Build configuration list for PBXNativeTarget "Pods-MSignInValidator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086B99D74AD58D4BA4A692E3965A8106 /* Debug */,
+				D5B8335E0FBA988E5FD29DD0EBB733DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62BC9A5ADBBD481242DC658A27CA0BE9 /* Build configuration list for PBXNativeTarget "MLoadingViewKit-MLoadingViewKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F819F9EDF3553EBB6720B4E783B91F9A /* Debug */,
+				DE566A62CD1A9F7B3D4236B42B6EB244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA4C0E79E6B0F25021081B8907CE78E /* Build configuration list for PBXNativeTarget "Pods-MSignInValidator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85489CF4F91DFCB8B71670BCE437C9A8 /* Debug */,
+				6329933EF5831C1966BFCE4407FADFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C439E21E97C7733F81C41E9CFDEF2581 /* Build configuration list for PBXNativeTarget "MLocalizedStringKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4807FCC239C040DB2D2AED22D83E374C /* Debug */,
+				C2433CCFCA3E9B44254D69F6CAA45472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED8C6A50D2456E5653F6C836573FD3A /* Build configuration list for PBXNativeTarget "MLoadingViewKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C6D7B60E0B5B4B471BF1BB89F9B8EB /* Debug */,
+				9C7DA589987DB2EF736726BF2AA72B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED937D6316AAFA95F7696727E8AC2A70 /* Build configuration list for PBXNativeTarget "MSignInValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8ECB8742EA96AC10E253E6F3D51BC2 /* Debug */,
+				2C0CD217C3A727448EB57BA59CA152FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

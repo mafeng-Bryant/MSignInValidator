@@ -1,0 +1,30 @@
+{
+  "name": "MSignInValidator",
+  "version": "1.0.0",
+  "summary": "MSignInValidator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mafeng-Bryant/MSignInValidator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1499603656@qq.com": "feng.ma@patpat.com"
+  },
+  "source": {
+    "git": "https://github.com/mafeng-Bryant/MSignInValidator.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MSignInValidator/Classes/**/*",
+  "dependencies": {
+    "MLocalizedStringKit": [
+      "~> 1.0.0"
+    ],
+    "MLoadingViewKit": [
+      "~> 1.1.2"
+    ]
+  }
+}
